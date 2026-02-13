@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tijolinho v0.6</title>
+  <!-- HTML -->
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header> <!-- cabeçalho -->
+    <div class="fundo1">
+      <h1 id="titulo"style="text-align: center;">🧱 • jogo do tijolinho</h1>
+    </div>
+  </header>
+  <main> <!-- corpo -->
+    <section> <!-- painel  -->
+      <div class="fundo1">
+        <h1 id="painel">Painel de tijolos</h1>
+        <div id="cartas">
+          <div id="carta-1"> <!--carta: 1-->
+            <h1 id="carta-1-p">🧿</h1>
+          </div>
+          <div id="carta-2"> <!--carta: 2-->
+            <h1 id="carta-2-p">🧿</h1>
+          </div>
+          <div id="carta-3"> <!--carta: 3-->
+            <h1 id="carta-3-p">🧿</h1>
+          </div>
+          <h4 id="bonus" class="bonus-class">super bonus</h4>
+          <div>
+            <h5 id="contagen">combos: ×0</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section> <!-- saldos  -->
+      <div class="fundo">
+        <h3 id="saldo" class="saldo-class">💰 R$: 00,00</h3>
+        <h3 id="aposta" class="aposta-class">🪙 R$: 00,00</h3>
+        <h3 id="ganho" class="ganho-class">🎁 R$: 00,00</h3>
+      </div>
+    </section>
+    <section> <!-- botoes -->
+      <div class="fundo1">
+        <h1 id="aviso" class="aviso-class">...</h1>
+        <input type="number" name="aposta" id="aposta-b" placeholder="apos.">
+        <input type="number" name="rodada" id="rodada-b" placeholder="roda.">
+        <button id="comecar">start</button>
+      </div>
+    </section>
+  </main>
+  <footer> <!-- roda pé -->
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+    background-image: url('./imagens/pngtree-chinese-new-year-image_16804987.jpg');
+    .fundo1 {
+        background-image: url('./imagens/chinese-knot-unique-7ff100.png');
+    }
+    h4 {
+        text-align: center;
+        color: #FECE09;
+        -webkit-text-stroke: 0.5px #000000;
+        text-shadow: 0 0 10px #DA1414;
+    }
+    h5 {
+        text-align: center;
+        color: #1367D4;
+        -webkit-text-stroke: 0.1px #FFFFFF;
+        text-shadow: 0 0 3px #00FF49;
+        font-size: 30px;
+        margin: 0;
+        margin-right: 10;
+    }
+    #aviso {
+        text-align: center;
+        color: #B6952F;
+        padding: 0;
+        text-shadow: 0 0 10px #B62F2F;
+        -webkit-text-stroke: 0.5px #B62F2F;
+    }
+    #aposta-b, #rodada-b {
+        padding-top: 0;
+        padding: 10px;
+        border: none;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        margin: 13px;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 50%;
+        justify-content: center;
+    }
+    #aposta-b {
+        font-size: 30px;
+        text-align: center;
+        color: #ffffff;
+        -webkit-text-stroke: 0.5px #000000;
+        box-shadow: 0 0 10px #A4C807;
+        border: 2px solid black;
+        background: rgba(178, 48, 48, 0.5);
+        backdrop-filter: blur(10px);
+        transition: 0.5s ease-in-out;
+    }
+    #aposta-b:hover {
+        width: 60px;
+        height: 60px;
+        backdrop-filter: blur(10px);
+        background: hsla(0, 96%, 37%, 0.5);
+    }
+    #rodada-b {
+        font-size: 30px;
+        height: 60px;
+        width: 60px;
+        text-align: center;
+        color: #ffffff;
+        -webkit-text-stroke: 0.5px #000000;
+        box-shadow: 0 0 10px yellow;
+        border: 2px solid black;
+        background: rgba(8, 159, 11, 0.5);
+        transition: 0.3s ease-in-out;
+    }
+    #rodada-b:hover {
+        width: 70px;
+        height: 70px;
+        backdrop-filter: blur(10px);
+        background: hsla(113, 96%, 37%, 0.5);
+    }
+    #comecar {
+        transition: 0.1s ease-in-out;
+        -webkit-text-stroke: 0.5px #E94A4A;
+        font-size: 20px;
+        border: none;
+        height: 60px;
+        width: 70px;
+        border-radius: 20px;
+        background: rgba(118, 255, 0, 0.5);
+        color: #FECE09;
+        box-shadow: 0 0 10px #00D2FF;
+        border: 2px solid #000000;
+    }
+    #comecar:active {
+        width: 80px;
+        height: 70px;
+        background-color: #5CB332;
+        box-shadow: 0 0 15px #B62F2F;
+        border-radius: 10px;
+        animation: add 1s forwards;
+    }
+    #titulo, #painel {
+        text-shadow: 0 0 10px #E21818;
+        text-align: center;
+        color: #2C8805;
+        -webkit-text-stroke: 1px #FFFD00;
+    }
+    background-color: slategray;
+    font-size: 15pt;
+    #carta-1, #carta-2, #carta-3 {
+        h1 {
+            box-sizing: border-box;
+            text-align: center;
+        }
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        height: 140px;
+        width: 70px;
+        background: rgba(178, 48, 48, 0.4);
+        backdrop-filter: blur(0.5px );
+    }
+    div {
+        h3 {
+            color: #ffffff;
+            box-sizing: border-box;
+            text-shadow: 0 0 10px #000;
+            -webkit-text-stroke: 1px #303BB2;
+            text-align: center;
+            display: inline-block;
+            font-size: 17px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            padding-left: 10px;
+        }
+        padding: 10px;
+        border: 1.5px solid #ffffff;
+        border-radius: 20px;
+        background: rgba(177, 102, 102, 0.1);
+        backdrop-filter: blur(2px);
+    }
+}
